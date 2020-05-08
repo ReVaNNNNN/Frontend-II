@@ -17,14 +17,21 @@ html {
 
 body nav {
     position: fixed;
+    top: 0; 
+    left: 0;
     width: 100%;
     height: var(--navHeight);
     line-height: var(--navHeight);
     background-color: #333;
     color: #FFF;
+    z-index: 1;
 }
 
 body header {
+    position: fixed;
+    top: var(--navHeight); 
+    left: 0;
+    width: 100%;
     height:  var(--headerHeight);
     line-height:  var(--headerHeight);
     background-color: crimson;
@@ -32,7 +39,9 @@ body header {
 }
 
 body main {
-    height: calc(var(--navHeight) + var(--headerHeight));
-    line-height: calc(var(--navHeight) + var(--headerHeight));
+    position: relative;
+    height: calc(2 * (var(--navHeight) + var(--headerHeight)));
+    line-height: calc(2 * (var(--navHeight) + var(--headerHeight)));
+    margin-top: calc(var(--navHeight) + var(--headerHeight));
     background-image: linear-gradient(45deg, green 0%, blue 40%, violet 70%, orange 100%);
 }
