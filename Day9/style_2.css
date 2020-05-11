@@ -31,11 +31,15 @@
     flex-basis: 30%;
     height: 10vh;
     font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    line-height: 10vh;
+    text-align: center;
 }
 
 .panel div:nth-of-type(17), div:nth-of-type(18) {
     flex-basis: 45%;
+}
+
+div.result~ div:hover {
+    cursor: pointer;
+    background-color: royalblue;
 }
