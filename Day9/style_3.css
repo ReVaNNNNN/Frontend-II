@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 400px;
+}
+
+header {
+    background-color: royalblue;
+}
+
+nav {
+    background-color: rosybrown;
+}
+
+main {
+    background-color: sandybrown;
+}
+
+aside {
+    background-color: steelblue;
+}
+
+footer {
+    background-color: turquoise;
+}
