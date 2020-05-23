@@ -1,2 +1,2 @@
 ﻿# Frontend-II
-HTML, CSS
+HTML, CSS, Flexbox, Grid
