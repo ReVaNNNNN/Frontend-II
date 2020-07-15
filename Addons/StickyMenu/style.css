@@ -1,0 +1,24 @@
+header {
+  height: 400px;
+  background-color: #222;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+a {
+  width: 25%;
+  float: left;
+  line-height: 60px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #aaa;
+}
+
+p {
+  line-height: 200%;
+  font-size: 20px;
+}
