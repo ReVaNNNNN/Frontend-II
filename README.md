@@ -1,2 +1,2 @@
 ﻿# Frontend-II
-HTML, CSS, Flexbox, Grid, Border-box, Position, PreProcessor SASS
+HTML, CSS, Flexbox, Grid, Border-box, Position, PreProcessor SASS, CSS Animations
